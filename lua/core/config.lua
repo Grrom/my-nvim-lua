@@ -19,3 +19,5 @@ vim.o.colorcolumn = "80"
 
 vim.g.mapleader = ' ';
 
+vim.cmd("colorscheme nord");
+

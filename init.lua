@@ -5,6 +5,7 @@ require("core/plugins");
 
 -- plugins - config
 require("package-configs/nvim-tree");
+require("package-configs/bufferline");
 
 -- LANGUAGE SERVERS
 --
