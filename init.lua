@@ -11,3 +11,5 @@ require("package-configs/nvim-tree");
 -- lua
 require("lsp-configs/lua");
 require("core/autocommands/lsp");
+-- typescript
+require("lsp-configs/typescript");
