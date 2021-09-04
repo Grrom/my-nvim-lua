@@ -109,9 +109,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jerome/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
-  ["vim-signify"] = {
+  ["vim-gitgutter"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-signify"
+    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
   }
 }
 

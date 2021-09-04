@@ -24,6 +24,6 @@ return require('packer').startup(function(use)
 
     use {'arcticicestudio/nord-vim'}
 
-    use {'mhinz/vim-signify'}
+    use {'airblade/vim-gitgutter'}
 
 end)

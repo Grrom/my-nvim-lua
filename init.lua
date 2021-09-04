@@ -7,6 +7,7 @@ require("core/plugins");
 require("package-configs/nvim-tree");
 require("package-configs/bufferline");
 require("package-configs/galaxyline");
+require("package-configs/gitgutter");
 
 -- LANGUAGE SERVERS
 --

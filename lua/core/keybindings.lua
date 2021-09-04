@@ -1,5 +1,5 @@
 local keymap = vim.api.nvim_set_keymap
-local options = { noremap = true }
+local options = {noremap = true}
 
 keymap('i', 'jk', '<Esc>', options);
 keymap('i', '', '<Esc> dbi', options);

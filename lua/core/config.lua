@@ -16,8 +16,10 @@ vim.o.scrolloff = 8
 vim.o.showmode = true
 vim.o.signcolumn = "yes"
 vim.o.colorcolumn = "80"
+vim.o.updatetime = 500;
 
 vim.g.mapleader = ' ';
 
 vim.cmd("colorscheme nord");
 
+-- hello
