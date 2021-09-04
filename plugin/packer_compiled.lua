@@ -108,6 +108,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/jerome/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-signify"] = {
+    loaded = true,
+    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-signify"
   }
 }
 
