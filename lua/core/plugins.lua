@@ -26,4 +26,6 @@ return require('packer').startup(function(use)
 
     use {'airblade/vim-gitgutter'}
 
+    use {"hrsh7th/nvim-cmp", requires = {"hrsh7th/vim-vsnip", "hrsh7th/cmp-buffer"}}
+
 end)

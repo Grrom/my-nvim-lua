@@ -9,6 +9,7 @@ require("package-configs/bufferline");
 require("package-configs/galaxyline");
 require("package-configs/gitgutter");
 require("package-configs/telescope");
+require("package-configs/nvim-cmp");
 
 -- LANGUAGE SERVERS
 --
