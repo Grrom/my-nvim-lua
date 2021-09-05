@@ -15,8 +15,7 @@ require("package-configs/nvim-autopairs");
 
 -- LANGUAGE SERVERS
 --
--- lua
 require("lsp-configs/lua");
+--
+-- lua
 require("core/autocommands/lsp");
--- typescript
-require("lsp-configs/typescript");
