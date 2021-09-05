@@ -15,7 +15,5 @@ require("package-configs/nvim-autopairs");
 
 -- LANGUAGE SERVERS
 --
-require("lsp-configs/lua");
---
 -- lua
-require("core/autocommands/lsp");
+require("lsp-configs/lua");

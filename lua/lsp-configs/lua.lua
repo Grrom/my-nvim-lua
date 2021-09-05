@@ -6,8 +6,16 @@ local sumneko_binary = ""
 sumneko_root_path = "/home/" .. USER .. "/.config/nvim/language-servers/lua-language-server"
 sumneko_binary = "/home/" .. USER .. "/.config/nvim/language-servers/lua-language-server/bin/Linux/lua-language-server"
 
+local on_attach = function()
+    print("uauto format lua")
+    vim.api.nvim_command([[
+      autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
+    ]])
+end
+
 require'lspconfig'.sumneko_lua.setup {
     cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"},
+    on_attach = on_attach,
     settings = {
         Lua = {
             runtime = {
