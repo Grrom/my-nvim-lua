@@ -18,3 +18,4 @@ keymap('n', '<s-l>', '<C-W>l', options);
 
 -- lsp
 keymap('n', 'gh', '<cmd>lua vim.lsp.buf.hover()<CR>', options);
+
