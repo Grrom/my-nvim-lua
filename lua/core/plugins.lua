@@ -28,4 +28,6 @@ return require('packer').startup(function(use)
 
     use {"hrsh7th/nvim-cmp", requires = {"hrsh7th/vim-vsnip", "hrsh7th/cmp-buffer"}}
 
+    use {'windwp/nvim-autopairs'}
+
 end)

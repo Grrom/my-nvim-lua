@@ -11,6 +11,7 @@ require("package-configs/gitgutter");
 require("package-configs/telescope");
 require("package-configs/nvim-cmp");
 require("package-configs/nvim-lsp");
+require("package-configs/nvim-autopairs");
 
 -- LANGUAGE SERVERS
 --
