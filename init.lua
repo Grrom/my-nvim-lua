@@ -17,3 +17,4 @@ require("package-configs/nvim-autopairs");
 --
 -- lua
 require("lsp-configs/lua");
+require("lsp-configs/bash");
