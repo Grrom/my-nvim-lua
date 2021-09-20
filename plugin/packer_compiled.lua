@@ -125,6 +125,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
   },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-prettier"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-vsnip"
