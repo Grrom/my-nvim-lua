@@ -16,7 +16,7 @@ require("package-configs/nvim-autopairs");
 -- LANGUAGE SERVERS
 --
 -- lua
-require("lsp-configs/efm");
+--require("lsp-configs/efm");
 require("lsp-configs/lua");
 require("lsp-configs/bash");
-require("lsp-configs/json");
+--require("lsp-configs/json");

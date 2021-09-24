@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/jerome/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?.lua;/home/jerome/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?/init.lua;/home/jerome/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?.lua;/home/jerome/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/jerome/.cache/nvim/packer_hererocks/2.0.5/lib/lua/5.1/?.so"
+local package_path_str = "/home/jeromearch/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?.lua;/home/jeromearch/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?/init.lua;/home/jeromearch/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?.lua;/home/jeromearch/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/jeromearch/.cache/nvim/packer_hererocks/2.0.5/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,67 +71,67 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/bufferline.nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/cmp-buffer"
   },
   ["galaxyline.nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
   },
   ["nord-vim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nord-vim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nord-vim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   ["vim-gitgutter"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
   },
   ["vim-prettier"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-prettier"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/vim-prettier"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/jerome/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+    path = "/home/jeromearch/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   }
 }
 

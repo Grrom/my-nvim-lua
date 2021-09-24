@@ -3,8 +3,10 @@ USER = vim.fn.expand('$USER')
 local sumneko_root_path = ""
 local sumneko_binary = ""
 
-sumneko_root_path = "/home/" .. USER .. "/.config/nvim/language-servers/lua-language-server"
-sumneko_binary = "/home/" .. USER .. "/.config/nvim/language-servers/lua-language-server/bin/Linux/lua-language-server"
+sumneko_root_path = "~/language-servers/lua-language-server"
+sumneko_binary = sumneko_root_path.."/bin/Linux/lua-language-server"
+--sumneko_root_path = "/root/jerome/lua-language-server"
+--sumneko_binary = sumneko_root_path .."/bin/Linux/lua-language-server"
 
 local on_attach = function()
     print("auto format lua attached")
