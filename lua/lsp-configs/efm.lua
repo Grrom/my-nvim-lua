@@ -1,6 +1,9 @@
+USER = vim.fn.expand('$USER')
+
 require"lspconfig".efm.setup {
     init_options = {documentFormatting = true},
     filetypes = {"lua"},
+    cmd = {"/home/" .. USER .. "/go/bin/efm-langserver"},
     settings = {
         rootMarkers = {".git/"},
         languages = {
